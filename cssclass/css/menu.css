@@ -1,0 +1,32 @@
+*{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    background-color: black;
+    padding: 12px;
+    
+    
+}
+
+.menu li{
+    width:100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.menu li a{
+    color:white;
+    text-decoration: none;
+}
+
+/* a:hover{
+    
+} */
+.menu li a:hover{
+    background-color:white;
+   padding: 12px;
+  
+    color:#000;
+}
